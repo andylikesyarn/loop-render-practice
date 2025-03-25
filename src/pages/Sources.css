@@ -1,0 +1,32 @@
+p {
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  background-color: lightpink;
+  color: black;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+button {
+  margin: 1rem;
+  padding: 0 auto;
+}
+
+h2,
+ul {
+  text-align: left;
+}
+
+div {
+  text-align: center;
+}
+
+article {
+  background-color: rgb(43, 7, 73);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 2rem;
+}
