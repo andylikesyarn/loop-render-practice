@@ -28,6 +28,12 @@ function Arrays() {
     The button's text should be the color's name */
   const colors = ["red", "blue", "green", "yellow", "purple"];
 
+  let colorDivs = colors.map((item) => (
+    <button className="card" style={{ backgroundColor: item }}>
+      {item}
+    </button>
+  ));
+
   //array 7
   /*Display each book inside an <h3> element*/
   const books = [
@@ -84,11 +90,9 @@ function Arrays() {
         ))}
       </article>
 
-      <article>
+      <article className="arraySix">
         <h2>Here is the result from Array 6</h2>
-        {colors.map((color) => (
-          <button>{color}</button>
-        ))}
+        <div>{colorDivs}</div>
       </article>
 
       <article>
