@@ -15,9 +15,18 @@ function Sources() {
             MDN webdocs
           </a>
         </li>
-        <li> <a href="https://stackoverflow.com/questions/22876978/loop-inside-react-jsx">
+        <li>
+          {" "}
+          <a href="https://stackoverflow.com/questions/22876978/loop-inside-react-jsx">
             Stack Overflow
-          </a></li>
+          </a>
+        </li>
+        <li>
+          {" "}
+          <a href="https://stackblitz.com/edit/vitejs-vite-cfzgudol?file=src%2FApp.jsx,src%2FApp.css&terminal=dev">
+            Code from class example on conditional styling
+          </a>
+        </li>
       </ul>
     </div>
   );
